@@ -13,7 +13,7 @@
 		9F740A2C1FA5FBF500E0F737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F740A2A1FA5FBF500E0F737 /* Main.storyboard */; };
 		9F740A2E1FA5FBF500E0F737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F740A2D1FA5FBF500E0F737 /* Assets.xcassets */; };
 		9F740A311FA5FBF500E0F737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F740A2F1FA5FBF500E0F737 /* LaunchScreen.storyboard */; };
-		9F740A391FA6035000E0F737 /* SvadaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F740A381FA6035000E0F737 /* SvadaProvider.swift */; };
+		9F740A391FA6035000E0F737 /* NonsenseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F740A381FA6035000E0F737 /* NonsenseProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9F740A2D1FA5FBF500E0F737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F740A301FA5FBF500E0F737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F740A321FA5FBF500E0F737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F740A381FA6035000E0F737 /* SvadaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvadaProvider.swift; sourceTree = "<group>"; };
+		9F740A381FA6035000E0F737 /* NonsenseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonsenseProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				9F740A2D1FA5FBF500E0F737 /* Assets.xcassets */,
 				9F740A2F1FA5FBF500E0F737 /* LaunchScreen.storyboard */,
 				9F740A321FA5FBF500E0F737 /* Info.plist */,
-				9F740A381FA6035000E0F737 /* SvadaProvider.swift */,
+				9F740A381FA6035000E0F737 /* NonsenseProvider.swift */,
 				9F69A83B1FA6111100C8BF3C /* Array+randomElement.swift */,
 			);
 			path = Svadagenerator;
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F740A391FA6035000E0F737 /* SvadaProvider.swift in Sources */,
+				9F740A391FA6035000E0F737 /* NonsenseProvider.swift in Sources */,
 				9F69A83C1FA6111100C8BF3C /* Array+randomElement.swift in Sources */,
 				9F740A291FA5FBF500E0F737 /* ViewController.swift in Sources */,
 				9F740A271FA5FBF500E0F737 /* AppDelegate.swift in Sources */,

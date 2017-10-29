@@ -2,13 +2,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private let svadaProvider = SvadaProvider()
+    private let nonsenseProvider = NonsenseProvider()
 
-    @IBOutlet var svadaLabel: UILabel!
+    @IBOutlet var nonsenseLabel: UILabel!
 
 
-    @IBAction func generateSvadaButtonTapped(_ sender: UIButton) {
-        svadaLabel.text = svadaProvider.generateSentence()
+    @IBAction func generateNonsenseButtonTapped(_ sender: UIButton) {
+        nonsenseLabel.text = nonsenseProvider.generateSentence()
     }
 
     override func viewDidLoad() {

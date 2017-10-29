@@ -1,8 +1,8 @@
 import Foundation
 
-class SvadaProvider {
+class NonsenseProvider {
 
-    private let svadaMatrix = [
+    private let nonsenseMatrix = [
         ["Gitt", "Under hensyntagen til", "I lys av", "Vedrørende", "Grunnet", "I betraktning av", "Forutsatt"],
         ["en integrert", "en optimal", "en sømløs", "en implisitt", "en proaktiv", "en betydelig", "en økt"],
         ["målsetting", "effekt", "struktur", "agenda", "tidshorisont", "overveielse", "mobilitet"],
@@ -14,7 +14,7 @@ class SvadaProvider {
 
 
     func generateSentence() -> String {
-        let phrases = svadaMatrix.map { $0.randomElement()! }
+        let phrases = nonsenseMatrix.map { $0.randomElement()! }
         let sentence = phrases.joined(separator: " ") + "."
 
         return sentence
