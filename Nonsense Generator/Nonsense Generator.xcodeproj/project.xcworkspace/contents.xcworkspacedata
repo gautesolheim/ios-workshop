@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Svadagenerator.xcodeproj">
+      location = "self:Nonsense Generator.xcodeproj">
    </FileRef>
 </Workspace>
