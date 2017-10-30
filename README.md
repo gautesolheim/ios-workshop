@@ -114,5 +114,21 @@ For the app icon to be visible in the simulator, you need to add at least the "i
 
 It should look something like this:
 
-![…](resources/exercise3-1.png)
+![](resources/exercise3-1.png)
 
+## Made by
+
+<table>
+    <tr>
+        <td align="center">
+            <img src="https://avatars0.githubusercontent.com/u/12966260" width="150" height="150">
+            <br>
+            <a href="https://github.com/gautesolheim/">Gaute Solheim</a>
+        </td>
+        <td align="center">
+            <img src="https://avatars0.githubusercontent.com/u/17125229" width="150" height="150">
+            <br>
+            <a href="https://github.com/espennaess">Espen Næss</a>
+        </td>
+    </tr>
+</table>
