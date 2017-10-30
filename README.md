@@ -96,6 +96,10 @@ First, add the `About View Controller` as described in the exercise.
 
 Then, right-click-and-drag from the `About` button in our original `View Controller`'s `Navigation Item`, to the `About View Controller`. When you let go of the cursor, a black pop-up will appear. Choose `Show` under `Action Segue`.
 
+#### 2.4
+
+We just added a new page to our app, but it looks very blank! Add something to it. Maybe a `Label` or `Image View` from the Object library?
+
 ### 3: Adding an App Icon
 
 #### 3.1
