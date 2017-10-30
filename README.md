@@ -95,3 +95,20 @@ Hint: Right-click-and-drag in our Storyboard.
 First, add the `About View Controller` as described in the exercise.
 
 Then, right-click-and-drag from the `About` button in our original `View Controller`'s `Navigation Item`, to the `About View Controller`. When you let go of the cursor, a black pop-up will appear. Choose `Show` under `Action Segue`.
+
+### 3: Adding an App Icon
+
+#### 3.1
+
+We have supplied some app icons in the repo's `App Icons` directory. Add an app icon to the `Assets.xcassets` folder in Xcode.
+
+##### Walkthrough
+
+In Xcode's **Project navigator** (folder icon in left pane), click on `Assets.xcassets`. Then, drag the app icons from the repo's `App Icon` directory to the icon placeholders.
+
+For the app icon to be visible in the simulator, you need to add at least the "iPhone App" icons.
+
+It should look something like this:
+
+![…](resources/exercise3-1.png)
+
