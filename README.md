@@ -116,6 +116,24 @@ It should look something like this:
 
 ![](resources/exercise3-1.png)
 
+
+
+### 4: Finally, some programming
+
+#### 4.1
+
+Now it's time to utilize the mysterious `AppDelegate.swift`. This file contains methods similar to those in the View Controller life cycle, but instead of belonging to a View Controller, they are system-wide.
+
+Modify the app so that it generates new nonsense when the user leaves the app and then opens it again.
+
+Hints: You'll want to put some code in `applicationWillEnterForeground`.
+
+To get our ViewController instance from AppDelegate, use `window!.rootViewController as! ViewController`.
+
+To get our AppDelegate instance, use `UIApplication.shared.delegate as! AppDelegate`.
+
+You only need one of the above two lines. Using the former is probably the easiest solution.
+
 ## Made by
 
 <table>
