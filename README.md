@@ -7,7 +7,7 @@ If you're worried about prerequisites, you probably shouldn't be. All you need i
 ## Program
 
 1. We hand out the [Swift cheat sheet](swift-cheat-sheet.md).
-2. A short presentation (not currently in this repo), that briefly covers:
+2. A short presentation that briefly covers:
    - Native vs. cross-platform app development
    - iOS app architecture
    - The [View Controller life cycle](https://i.stack.imgur.com/g19fw.png)
@@ -44,7 +44,7 @@ Change the `viewDidLoad` method to:
 override func viewDidLoad() {
     super.viewDidLoad()
 
-    nonsenseLabel.text = nonsenseProvider.generateSentence()
+    updateNonsenseLabel()
 }
 ```
 
