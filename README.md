@@ -126,13 +126,7 @@ Now it's time to utilize the mysterious `AppDelegate.swift`. This file contains 
 
 Modify the app so that it generates new nonsense when the user leaves the app and then opens it again.
 
-Hints: You'll want to put some code in `applicationWillEnterForeground`.
-
-To get our ViewController instance from AppDelegate, use `window!.rootViewController as! ViewController`.
-
-To get our AppDelegate instance, use `UIApplication.shared.delegate as! AppDelegate`.
-
-You only need one of the above two lines. Using the former is probably the easiest solution.
+Hints: You'll want to put some code in `applicationWillEnterForeground`. To get our AppDelegate instance from the View Controller, use `UIApplication.shared.delegate as! AppDelegate`.
 
 ## Made by
 
