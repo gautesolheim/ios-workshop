@@ -18,7 +18,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        nonsenseLabel.text = nonsenseProvider.generateSentence()
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.viewController = self
+        }
+
+        updateNonsenseLabel()
     }
 
 }
