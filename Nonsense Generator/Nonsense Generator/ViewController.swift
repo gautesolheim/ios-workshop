@@ -8,6 +8,10 @@ class ViewController: UIViewController {
 
 
     @IBAction func generateNonsenseButtonTapped(_ sender: UIButton) {
+        updateNonsenseLabel()
+    }
+
+    func updateNonsenseLabel() {
         nonsenseLabel.text = nonsenseProvider.generateSentence()
     }
 

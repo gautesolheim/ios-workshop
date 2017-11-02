@@ -96,6 +96,10 @@ First, add the `About View Controller` as described in the exercise.
 
 Then, right-click-and-drag from the `About` button in our original `View Controller`'s `Navigation Item`, to the `About View Controller`. When you let go of the cursor, a black pop-up will appear. Choose `Show` under `Action Segue`.
 
+#### 2.4
+
+We just added a new page to our app, but it looks very blank! Add something to it. Maybe a `Label` or `Image View` from the Object library?
+
 ### 3: Adding an App Icon
 
 #### 3.1
@@ -110,5 +114,39 @@ For the app icon to be visible in the simulator, you need to add at least the "i
 
 It should look something like this:
 
-![…](resources/exercise3-1.png)
+![](resources/exercise3-1.png)
 
+
+
+### 4: Finally, some programming
+
+#### 4.1
+
+Now it's time to utilize the mysterious `AppDelegate.swift`. This file contains methods similar to those in the View Controller life cycle, but instead of belonging to a View Controller, they are system-wide.
+
+Modify the app so that it generates new nonsense when the user leaves the app and then opens it again.
+
+Hints: You'll want to put some code in `applicationWillEnterForeground`.
+
+To get our ViewController instance from AppDelegate, use `window!.rootViewController as! ViewController`.
+
+To get our AppDelegate instance, use `UIApplication.shared.delegate as! AppDelegate`.
+
+You only need one of the above two lines. Using the former is probably the easiest solution.
+
+## Made by
+
+<table>
+    <tr>
+        <td align="center">
+            <img src="https://avatars0.githubusercontent.com/u/12966260" width="150" height="150">
+            <br>
+            <a href="https://github.com/gautesolheim/">Gaute Solheim</a>
+        </td>
+        <td align="center">
+            <img src="https://avatars0.githubusercontent.com/u/17125229" width="150" height="150">
+            <br>
+            <a href="https://github.com/espennaess">Espen Næss</a>
+        </td>
+    </tr>
+</table>
